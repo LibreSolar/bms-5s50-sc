@@ -12,12 +12,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Libre Solar BMS 5s"
+Date "2017-05-27"
+Rev "0.1"
+Comp "Libre Solar (http://libre.solar)"
+Comment1 "License: CC-BY-SA"
+Comment2 "Author: Martin Jäger"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -798,7 +798,7 @@ DSG_EN
 Text HLabel 6050 3200 2    50   Output ~ 0
 BQ_ALERT
 $Comp
-L Q_NMOS_GSD Q2
+L Q_PMOS_GSD Q2
 U 1 1 58E3A897
 P 9000 1600
 F 0 "Q2" H 9300 1650 50  0000 R CNN

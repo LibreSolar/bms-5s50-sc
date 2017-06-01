@@ -12,12 +12,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "LibreSolar_BMS12V-BQ"
-Date "3 dec 2016"
-Rev "0.1b"
+Title "Libre Solar BMS 5s"
+Date "2017-05-27"
+Rev "0.1"
 Comp "Libre Solar (http://libre.solar)"
 Comment1 "License: CC-BY-SA"
-Comment2 ""
+Comment2 "Author: Martin Jäger"
 Comment3 ""
 Comment4 ""
 $EndDescr

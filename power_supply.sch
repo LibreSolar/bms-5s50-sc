@@ -12,12 +12,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title "MPPT Charger 20A"
-Date "2017-03-06"
-Rev "0.7"
-Comp "Libre Solar"
-Comment1 "Author: Martin Jäger"
-Comment2 "Website: http://libre.solar"
+Title "Libre Solar BMS 5s"
+Date "2017-05-27"
+Rev "0.1"
+Comp "Libre Solar (http://libre.solar)"
+Comment1 "License: CC-BY-SA"
+Comment2 "Author: Martin Jäger"
 Comment3 ""
 Comment4 ""
 $EndDescr
