@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:BMS-5s-rescue
 LIBS:IEC-60617
 LIBS:LibreSolar
 LIBS:power

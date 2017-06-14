@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:BMS-5s-rescue
 LIBS:IEC-60617
 LIBS:LibreSolar
 LIBS:power
@@ -977,7 +976,7 @@ F 1 "24AA01" H 2400 6774 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H -100 -300 50  0001 C CNN
 F 3 "" H -100 350 60  0000 C CNN
 F 4 "Microchip" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "24AA01" H 0   0   60  0001 C CNN "PartNumber"
+F 5 "24AA01T-I/OT" H 0   0   60  0001 C CNN "PartNumber"
 	1    2400 6500
 	1    0    0    -1  
 $EndComp
@@ -1011,11 +1010,11 @@ L Q_NMOS_GSD Q8
 U 1 1 59230085
 P 8400 2900
 F 0 "Q8" H 8700 2950 50  0000 R CNN
-F 1 "2N7002" H 8900 2850 50  0000 R CNN
+F 1 "BSS138" H 8900 2850 50  0000 R CNN
 F 2 "LibreSolar:SOT-23" H 8600 3000 50  0001 C CNN
 F 3 "" H 8400 2900 50  0000 C CNN
-F 4 "Nexperia" H 8400 2900 60  0001 C CNN "Manufacturer"
-F 5 "2N7002,215" H 8400 2900 60  0001 C CNN "PartNumber"
+F 4 "Fairchild Semiconductor" H 8400 2900 60  0001 C CNN "Manufacturer"
+F 5 "BSS138" H 8400 2900 60  0001 C CNN "PartNumber"
 	1    8400 2900
 	1    0    0    -1  
 $EndComp

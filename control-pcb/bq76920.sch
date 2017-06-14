@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:BMS-5s-rescue
 LIBS:IEC-60617
 LIBS:LibreSolar
 LIBS:power
@@ -815,11 +814,11 @@ L Q_NMOS_GSD Q4
 U 1 1 58E3A9D2
 P 8900 2500
 F 0 "Q4" H 9200 2550 50  0000 R CNN
-F 1 "2N7002" H 9400 2450 50  0000 R CNN
+F 1 "BSS138" H 9400 2450 50  0000 R CNN
 F 2 "LibreSolar:SOT-23" H 9100 2600 50  0001 C CNN
 F 3 "" H 8900 2500 50  0000 C CNN
-F 4 "Nexperia" H 8900 2500 60  0001 C CNN "Manufacturer"
-F 5 "2N7002,215" H 8900 2500 60  0001 C CNN "PartNumber"
+F 4 "Fairchild Semiconductor" H 8900 2500 60  0001 C CNN "Manufacturer"
+F 5 "BSS138" H 8900 2500 60  0001 C CNN "PartNumber"
 	1    8900 2500
 	1    0    0    -1  
 $EndComp
@@ -1300,6 +1299,7 @@ F 2 "LibreSolar:SW_Tactile_SKHH_Angled" H 9000 4000 50  0001 C CNN
 F 3 "" H 9100 4150 50  0000 C CNN
 F 4 "Würth" H 9100 4150 60  0001 C CNN "Manufacturer"
 F 5 "431256083716" H 9100 4150 60  0001 C CNN "PartNumber"
+F 6 "TE FSMRA3JH" H 9100 4150 60  0001 C CNN "Alternative"
 	1    9100 4150
 	0    1    1    0   
 $EndComp
