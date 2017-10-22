@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Conn_Switch-N-Sense_Inverted-RESCUE-Switch-N-Sense
+#
+DEF Conn_Switch-N-Sense_Inverted-RESCUE-Switch-N-Sense P 0 40 Y Y 1 F N
+F0 "P" 0 750 50 H V C CNN
+F1 "Conn_Switch-N-Sense_Inverted-RESCUE-Switch-N-Sense" 0 -750 50 H V C CNN
+F2 "" 0 -1200 50 H V C CNN
+F3 "" 0 -1200 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_2X04
+ Pin_Header_Angled_2X04
+ Socket_Strip_Straight_2X04
+ Socket_Strip_Angled_2X04
+$ENDFPLIST
+DRAW
+T 900 300 -150 50 0 0 0 Switch-N-Sense~Connector Normal 0 C C
+S -250 700 350 -700 0 1 0 f
+X NC 1 500 500 150 L 50 50 1 1 N
+X NC 2 500 600 150 L 50 50 1 1 N
+X TEMP- 3 -400 -600 150 R 50 50 1 1 P
+X TEMP+ 4 -400 -500 150 R 50 50 1 1 P
+X R_SENSE+ 5 -400 -300 150 R 50 50 1 1 P
+X R_SENSE- 6 -400 -200 150 R 50 50 1 1 P
+X PCHG_EN 7 -400 0 150 R 50 50 1 1 P
+X DSG_EN 8 -400 100 150 R 50 50 1 1 P
+X CHG_EN 9 -400 200 150 R 50 50 1 1 P
+X BAT- 10 -400 400 150 R 50 50 1 1 P
+X LOAD+ 11 -400 500 150 R 50 50 1 1 P
+X BAT+ 12 -400 600 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

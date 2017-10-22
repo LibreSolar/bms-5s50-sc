@@ -22,3 +22,8 @@ _autosave-*
 
 # Misc
 .atom*
+*.stp
+*.step
+
+# Gerber folder
+*gerber*
