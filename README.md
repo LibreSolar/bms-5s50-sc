@@ -8,9 +8,13 @@ The Libre Solar BMS is divided into two different boards, connected via a flat c
 
 ### Control board (BMS 5s)
 
+[Schematic (PDF)](power-pcb/Switch-N-Sense.pdf)
+
 ![Libre Solar BMS 5s control board](bms5s_control.png)
 
 ### Power board (Switch-N-Sense)
+
+[Schematic (PDF)](control-pcb/BMS-5s.pdf)
 
 ![Libre Solar BMS 5s power board](bms5s_power.png)
 
