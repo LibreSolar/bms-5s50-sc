@@ -1,0 +1,34 @@
+Component;Description;Part;References;Value;Footprint;Quantity Per PCB;Datasheet;PartNumber;Manufacturer;Remarks
+1;Unpolarized capacitor;C;C3 C4 C6 C7;100n;C_0603_1608;4;;CC0603KRX7R9BB104;Yageo;
+2;Unpolarized capacitor;C;C2 C5;10n;C_0603_1608;2;;CC0603KRX7R9BB103;Yageo;
+3;Unpolarized capacitor;C;C1;1u;C_0805_2012;1;;CC0603KRX7R8BB105;Yageo;
+4;Diode Schottky;D_Schottky;D1 D2;SMCJ24A;D_SMC;2;;SMCJ24A;Bourns;
+5;;LibreSolar_Logo;LOGO1;LIBRE_SOLAR;LIBRESOLAR_LOGO;1;;;;
+6;small Open Hardware Logo;Logo_Open_Hardware_Small;LOGO2;OPEN_HARDWARE_1;OSHW-Logo_5.7x6mm_SilkScreen;1;;;;
+7;Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/);Conn_01x01;P2 P3 P4 P5;CONN_01X01;Wuerth_WP-THRBU;4;;74650195;Wuerth;
+8;;Conn_Switch-N-Sense_Inverted;P6;Conn_Switch-N-Sense;Wuerth_WR-FPC_686112148922;1;;686112148922;Wuerth;
+9;Transistor N-MOSFET (general);Q_NMOS;Q1 Q2 Q3 Q4;BSC014N04LS;5X6_MOSFET;4;;BSC014N04LS;Infineon;
+10;Transistor P-MOSFET with substrate diode (general);Q_PMOS_GSD;Q5;ZXMP6A13F;SOT-23;1;;ZXMP6A13FTA;Diodes Incorporated;-60V
+11;Resistor;R;R8 R13;100;R_0603_1608;2;;RC0603FR-07100RL;Yageo;
+12;Resistor;R;R10 R11;1M;R_0603_1608;2;;RC0603FR-071ML;Yageo;
+13;Resistor;R;R14 R15 R16;1k;R_0603_1608;3;;RC0603FR-071KL;Yageo;
+14;Resistor;R;R1 R2;2m;R_Bourns_CRE2512;2;;CRE2512-FZ-R002E-3;Bourns;
+15;Resistor;R;R5 R6 R7;330;R_2010_5025;3;;RC2010JK-07330RL;Yageo;
+16;Resistor;R;R9 R12;4.7;R_0603_1608;2;;RC0603FR-074R7L;Yageo;
+17;;R_NTC;RT1;10k;R_0603_1608;1;;NTCG163JF103FT1S;TDK;
+18;;BQ76200;U1;BQ76200;TSSOP-16_4.4x5mm_P0.65mm;1;;BQ76200PWR;Texas Instruments;
+
+
+
+
+
+Component Groups:;18
+Component Count:;37
+Fitted Components:;37
+Number of PCBs:;1
+Total components:;37
+Schematic Version:;0.2
+Schematic Date:;
+BoM Date:;11/05/2018 13:48:19
+Schematic Source:;D:\LibreSolar\2_Development\04_Hardware\BMS-5s\power-pcb\Switch-N-Sense.sch
+KiCad Version:;Eeschema (5.0.0-rc2-dev-444-g2974a2c10)

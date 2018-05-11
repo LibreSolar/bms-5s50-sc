@@ -20,3 +20,6 @@ _autosave-*
 
 # Misc
 .atom*
+
+# Gerber files
+*gerber*
