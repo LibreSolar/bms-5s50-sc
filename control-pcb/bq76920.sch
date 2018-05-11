@@ -1,10 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:IEC-60617
-LIBS:LibreSolar
-LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:logo
+EESchema Schematic File Version 4
 LIBS:BMS-5s-cache
 EELAYER 26 0
 EELAYER END
@@ -21,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R21
+L Project:R R21
 U 1 1 58ACE343
 P 5550 3400
 F 0 "R21" V 5475 3400 50  0000 C CNN
@@ -34,7 +28,7 @@ F 5 "RC0603FR-071ML" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L Project:R R20
 U 1 1 58ACE34A
 P 5850 3200
 F 0 "R20" V 5775 3200 50  0000 C CNN
@@ -47,7 +41,7 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C8
+L Project:C C8
 U 1 1 58ACE358
 P 7400 2400
 F 0 "C8" H 7425 2475 50  0000 L CNN
@@ -60,21 +54,21 @@ F 5 "GRM21BR61E106KA73L" H 7400 2400 60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L Project:C C9
 U 1 1 58ACE35F
 P 7700 2400
 F 0 "C9" H 7725 2475 50  0000 L CNN
 F 1 "1u" H 7725 2325 50  0000 L CNN
-F 2 "LibreSolar:C_0603_1608" H 7700 2200 50  0001 C CNN
+F 2 "LibreSolar:C_0805_2012" H 7700 2200 50  0001 C CNN
 F 3 "" H 7725 2475 50  0000 C CNN
-F 4 "X5R" H 7700 2400 60  0001 C CNN "Remarks"
-F 5 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 6 "GRM188R61H105KAALD" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "" H 7700 2400 60  0001 C CNN "Remarks"
+F 5 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 6 "CC0805KKX7R9BB105" H 0   0   60  0001 C CNN "PartNumber"
 	1    7700 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L Project:C C10
 U 1 1 58ACE366
 P 8000 2400
 F 0 "C10" H 8025 2475 50  0000 L CNN
@@ -88,34 +82,34 @@ F 6 "10V" H 0   0   60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L Project:C C7
 U 1 1 58ACE36D
 P 7150 2400
 F 0 "C7" H 7175 2475 50  0000 L CNN
 F 1 "1u" H 7175 2325 50  0000 L CNN
-F 2 "LibreSolar:C_0603_1608" H 7150 2200 50  0001 C CNN
+F 2 "LibreSolar:C_0805_2012" H 7150 2200 50  0001 C CNN
 F 3 "" H 7175 2475 50  0000 C CNN
-F 4 "Murata" H 7150 2400 60  0001 C CNN "Manufacturer"
-F 5 "X5R" H 7150 2400 60  0001 C CNN "Remarks"
-F 6 "GRM188R61H105KAALD" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 7150 2400 60  0001 C CNN "Manufacturer"
+F 5 "" H 7150 2400 60  0001 C CNN "Remarks"
+F 6 "CC0805KKX7R9BB105" H 0   0   60  0001 C CNN "PartNumber"
 	1    7150 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L Project:C C11
 U 1 1 58ACE374
 P 6200 5450
 F 0 "C11" H 6225 5525 50  0000 L CNN
 F 1 "100n" H 6225 5375 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 6200 5250 50  0001 C CNN
 F 3 "" H 6225 5525 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    6200 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L Project:R R17
 U 1 1 58ACE37B
 P 7400 1700
 F 0 "R17" V 7325 1700 50  0000 C CNN
@@ -134,7 +128,7 @@ Balancing (33R resistors)\nCurrent: 100-130 mA (3.3-4.2 V)\nHeat dissipation: 30
 Text Notes 5750 3800 0    50   ~ 0
 ALERT pin from BQ769x0\ndrives interupt in case\nof new current reading or\nbattery error
 $Comp
-L D_Zener D5
+L Project:D_Zener D5
 U 1 1 58ACE430
 P 2800 1700
 F 0 "D5" H 2800 1800 50  0000 C CNN
@@ -148,7 +142,7 @@ F 6 "BZX384-C5V6" H 2800 1700 60  0001 C CNN "Alternative"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Zener D4
+L Project:D_Zener D4
 U 1 1 58ACE437
 P 2800 2500
 F 0 "D4" H 2800 2600 50  0000 C CNN
@@ -162,7 +156,7 @@ F 6 "BZX384-C5V6" H 2800 2500 60  0001 C CNN "Alternative"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Zener D3
+L Project:D_Zener D3
 U 1 1 58ACE43E
 P 2800 3300
 F 0 "D3" H 2800 3400 50  0000 C CNN
@@ -176,7 +170,7 @@ F 6 "BZX384-C5V6" H 2800 3300 60  0001 C CNN "Alternative"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Zener D2
+L Project:D_Zener D2
 U 1 1 58ACE445
 P 2800 4100
 F 0 "D2" H 2800 4200 50  0000 C CNN
@@ -190,7 +184,7 @@ F 6 "BZX384-C5V6" H 2800 4100 60  0001 C CNN "Alternative"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Zener D1
+L Project:D_Zener D1
 U 1 1 58ACE44C
 P 2800 4900
 F 0 "D1" H 2800 5000 50  0000 C CNN
@@ -206,7 +200,7 @@ F 8 "BZX384-C5V6" H 2800 4900 60  0001 C CNN "Alternative"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Zener D9
+L Project:D_Zener D9
 U 1 1 58ACE453
 P 4100 5300
 F 0 "D9" V 4050 5225 50  0000 R CNN
@@ -220,7 +214,7 @@ F 5 "MM3Z3V3T1G" H 4100 5300 60  0001 C CNN "PartNumber"
 $EndComp
 NoConn ~ 5650 1900
 $Comp
-L Q_NMOS_GSD Q1
+L Project:Q_NMOS_GSD Q1
 U 1 1 58ACE462
 P 2400 1600
 F 0 "Q1" H 2700 1650 50  0000 R CNN
@@ -233,7 +227,7 @@ F 5 "DMN2004K-7" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q3
+L Project:Q_NMOS_GSD Q3
 U 1 1 58ACE469
 P 2400 2400
 F 0 "Q3" H 2700 2450 50  0000 R CNN
@@ -246,7 +240,7 @@ F 5 "DMN2004K-7" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q5
+L Project:Q_NMOS_GSD Q5
 U 1 1 58ACE470
 P 2400 3200
 F 0 "Q5" H 2700 3250 50  0000 R CNN
@@ -259,7 +253,7 @@ F 5 "DMN2004K-7" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q6
+L Project:Q_NMOS_GSD Q6
 U 1 1 58ACE477
 P 2400 4000
 F 0 "Q6" H 2700 4050 50  0000 R CNN
@@ -272,7 +266,7 @@ F 5 "DMN2004K-7" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q7
+L Project:Q_NMOS_GSD Q7
 U 1 1 58ACE47E
 P 2400 4800
 F 0 "Q7" H 2700 4850 50  0000 R CNN
@@ -285,7 +279,7 @@ F 5 "DMN2004K-7" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 58ACE57D
 P 8200 2700
 F 0 "#PWR02" H 8200 2450 50  0001 C CNN
@@ -296,7 +290,7 @@ F 3 "" H 8200 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 58ACE589
 P 6200 5650
 F 0 "#PWR03" H 6200 5400 50  0001 C CNN
@@ -307,7 +301,7 @@ F 3 "" H 6200 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 58ACE58F
 P 6500 5650
 F 0 "#PWR04" H 6500 5400 50  0001 C CNN
@@ -318,7 +312,7 @@ F 3 "" H 6500 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 58ACE59B
 P 5550 3700
 F 0 "#PWR05" H 5550 3450 50  0001 C CNN
@@ -329,7 +323,7 @@ F 3 "" H 5550 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 58ACE5A1
 P 4100 5500
 F 0 "#PWR06" H 4100 5250 50  0001 C CNN
@@ -340,7 +334,7 @@ F 3 "" H 4100 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 58ACE5AA
 P 4100 4800
 F 0 "#PWR07" H 4100 4550 50  0001 C CNN
@@ -351,7 +345,7 @@ F 3 "" H 4100 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R25
+L Project:R R25
 U 1 1 58ACF802
 P 1700 6750
 F 0 "R25" V 1625 6750 50  0000 C CNN
@@ -364,7 +358,7 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R26
+L Project:R R26
 U 1 1 58ACF809
 P 3100 6750
 F 0 "R26" V 3025 6750 50  0000 C CNN
@@ -377,48 +371,48 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C12
+L Project:C C12
 U 1 1 58ACF810
 P 2400 6750
 F 0 "C12" H 2425 6825 50  0000 L CNN
 F 1 "100n" H 2425 6675 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 2400 6550 50  0001 C CNN
 F 3 "" H 2425 6825 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    2400 6750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C14
+L Project:C C14
 U 1 1 58ACF817
 P 2900 7050
 F 0 "C14" H 2925 7125 50  0000 L CNN
 F 1 "100n" H 2925 6975 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 2900 6850 50  0001 C CNN
 F 3 "" H 2925 7125 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    2900 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L Project:C C13
 U 1 1 58ACF81E
 P 1900 7050
 F 0 "C13" H 1875 7125 50  0000 R CNN
 F 1 "100n" H 1875 6975 50  0000 R CNN
 F 2 "LibreSolar:C_0603_1608" H 1900 6850 50  0001 C CNN
 F 3 "" H 1925 7125 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    1900 7050
 	1    0    0    -1  
 $EndComp
 Text Notes 1750 6200 0    100  ~ 0
 Current sense filter
 $Comp
-L D_Zener D11
+L Project:D_Zener D11
 U 1 1 58ACF82D
 P 2100 7050
 F 0 "D11" V 2050 7150 50  0000 L CNN
@@ -431,7 +425,7 @@ F 5 "MM3Z3V3T1G" H 2100 7050 60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L D_Zener D12
+L Project:D_Zener D12
 U 1 1 58ACF834
 P 2700 7050
 F 0 "D12" V 2650 6975 50  0000 R CNN
@@ -444,7 +438,7 @@ F 5 "MM3Z3V3T1G" H 2700 7050 60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 58ACF83B
 P 2900 7250
 F 0 "#PWR08" H 2900 7000 50  0001 C CNN
@@ -455,7 +449,7 @@ F 3 "" H 2900 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 58ACF841
 P 2700 7250
 F 0 "#PWR09" H 2700 7000 50  0001 C CNN
@@ -466,7 +460,7 @@ F 3 "" H 2700 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 58ACF847
 P 1900 7250
 F 0 "#PWR010" H 1900 7000 50  0001 C CNN
@@ -477,7 +471,7 @@ F 3 "" H 1900 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 58ACF84D
 P 2100 7250
 F 0 "#PWR011" H 2100 7000 50  0001 C CNN
@@ -488,7 +482,7 @@ F 3 "" H 2100 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L Project:R R11
 U 1 1 58B0B0ED
 P 3100 1100
 F 0 "R11" V 3025 1100 50  0000 C CNN
@@ -501,7 +495,7 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L Project:R R10
 U 1 1 58B0B3E3
 P 3100 1900
 F 0 "R10" V 3025 1900 50  0000 C CNN
@@ -514,7 +508,7 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R9
+L Project:R R9
 U 1 1 58B0B822
 P 3100 2700
 F 0 "R9" V 3025 2700 50  0000 C CNN
@@ -527,7 +521,7 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
+L Project:R R8
 U 1 1 58B0BCA8
 P 3100 3500
 F 0 "R8" V 3025 3500 50  0000 C CNN
@@ -540,7 +534,7 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R7
+L Project:R R7
 U 1 1 58B0BD7B
 P 3100 4300
 F 0 "R7" V 3025 4300 50  0000 C CNN
@@ -553,7 +547,7 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L Project:R R6
 U 1 1 58B0BE55
 P 3100 5100
 F 0 "R6" V 3025 5100 50  0000 C CNN
@@ -566,7 +560,7 @@ F 5 "RC0603FR-071KL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R16
+L Project:R R16
 U 1 1 58B0D413
 P 3400 1700
 F 0 "R16" V 3325 1700 50  0000 C CNN
@@ -579,7 +573,7 @@ F 5 "RC0603FR-0710KL" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L Project:R R15
 U 1 1 58B0D4EE
 P 3400 2500
 F 0 "R15" V 3325 2500 50  0000 C CNN
@@ -592,7 +586,7 @@ F 5 "RC0603FR-0710KL" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L Project:R R14
 U 1 1 58B0D5BA
 P 3400 3300
 F 0 "R14" V 3325 3300 50  0000 C CNN
@@ -605,7 +599,7 @@ F 5 "RC0603FR-0710KL" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L Project:R R13
 U 1 1 58B0D7B9
 P 3400 4100
 F 0 "R13" V 3325 4100 50  0000 C CNN
@@ -618,7 +612,7 @@ F 5 "RC0603FR-0710KL" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Project:R R12
 U 1 1 58B0DE39
 P 3400 4900
 F 0 "R12" V 3325 4900 50  0000 C CNN
@@ -631,7 +625,7 @@ F 5 "RC0603FR-0710KL" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Project:R R5
 U 1 1 58B0F7A5
 P 1900 1300
 F 0 "R5" V 1825 1300 50  0000 C CNN
@@ -644,7 +638,7 @@ F 5 "RC2010JK-0733RL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L Project:R R4
 U 1 1 58B0F8A2
 P 1900 2100
 F 0 "R4" V 1825 2100 50  0000 C CNN
@@ -657,7 +651,7 @@ F 5 "RC2010JK-0733RL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L Project:R R3
 U 1 1 58B0F9E6
 P 1900 2900
 F 0 "R3" V 1825 2900 50  0000 C CNN
@@ -670,7 +664,7 @@ F 5 "RC2010JK-0733RL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L Project:R R2
 U 1 1 58B0FAB9
 P 1900 3700
 F 0 "R2" V 1825 3700 50  0000 C CNN
@@ -683,7 +677,7 @@ F 5 "RC2010JK-0733RL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L Project:R R1
 U 1 1 58B0FB8F
 P 2000 4500
 F 0 "R1" V 1925 4500 50  0000 C CNN
@@ -696,90 +690,90 @@ F 5 "RC2010JK-0733RL" H 0   0   60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C6
+L Project:C C6
 U 1 1 58B11B5A
 P 3700 1500
 F 0 "C6" H 3725 1575 50  0000 L CNN
 F 1 "100n" H 3725 1425 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 3700 1300 50  0001 C CNN
 F 3 "" H 3725 1575 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    3700 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L Project:C C5
 U 1 1 58B11DFB
 P 3700 2300
 F 0 "C5" H 3725 2375 50  0000 L CNN
 F 1 "100n" H 3725 2225 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 3700 2100 50  0001 C CNN
 F 3 "" H 3725 2375 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    3700 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L Project:C C4
 U 1 1 58B11EBD
 P 3700 3100
 F 0 "C4" H 3725 3175 50  0000 L CNN
 F 1 "100n" H 3725 3025 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 3700 2900 50  0001 C CNN
 F 3 "" H 3725 3175 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    3700 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L Project:C C3
 U 1 1 58B1240D
 P 3700 3900
 F 0 "C3" H 3725 3975 50  0000 L CNN
 F 1 "100n" H 3725 3825 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 3700 3700 50  0001 C CNN
 F 3 "" H 3725 3975 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    3700 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Project:C C2
 U 1 1 58B124E1
 P 3700 4500
 F 0 "C2" H 3710 4570 50  0000 L CNN
 F 1 "100n" H 3710 4420 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 3700 4500 50  0001 C CNN
 F 3 "" H 3700 4500 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    3700 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Project:C C1
 U 1 1 58B125B8
 P 3700 4900
 F 0 "C1" H 3725 4975 50  0000 L CNN
 F 1 "100n" H 3725 4825 50  0000 L CNN
 F 2 "LibreSolar:C_0603_1608" H 3700 4700 50  0001 C CNN
 F 3 "" H 3725 4975 50  0000 C CNN
-F 4 "Murata" H 0   0   60  0001 C CNN "Manufacturer"
-F 5 "GRM188R71H104KA93D" H 0   0   60  0001 C CNN "PartNumber"
+F 4 "Yageo" H 0   0   60  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB104" H 0   0   60  0001 C CNN "PartNumber"
 	1    3700 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L BQ76920 U1
+L Project:BQ76920 U1
 U 1 1 58B1969D
 P 6100 2350
 F 0 "U1" H 6100 2950 50  0000 C CNN
 F 1 "BQ76920" H 6100 1750 50  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 6100 1500 60  0001 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6100 1500 60  0001 C CNN
 F 3 "" H 6100 2950 60  0000 C CNN
 F 4 "Texas Instruments" H 0   0   60  0001 C CNN "Manufacturer"
 F 5 "BQ7692003PWR" H 6100 2350 60  0001 C CNN "PartNumber"
@@ -797,7 +791,7 @@ DSG_EN
 Text HLabel 6050 3200 2    50   Output ~ 0
 BQ_ALERT
 $Comp
-L Q_PMOS_GSD Q2
+L Project:Q_PMOS_GSD Q2
 U 1 1 58E3A897
 P 9000 1600
 F 0 "Q2" H 9300 1650 50  0000 R CNN
@@ -810,7 +804,7 @@ F 5 "BSS84" H 9000 1600 60  0001 C CNN "PartNumber"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Q_NMOS_GSD Q4
+L Project:Q_NMOS_GSD Q4
 U 1 1 58E3A9D2
 P 8900 2500
 F 0 "Q4" H 9200 2550 50  0000 R CNN
@@ -823,7 +817,7 @@ F 5 "BSS138" H 8900 2500 60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D6
+L Project:D D6
 U 1 1 58E3C074
 P 6800 1500
 F 0 "D6" H 6800 1600 50  0000 C CNN
@@ -836,7 +830,7 @@ F 5 "1N4148W-7-F" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 58E3D6C0
 P 9000 2800
 F 0 "#PWR012" H 9000 2550 50  0001 C CNN
@@ -847,7 +841,7 @@ F 3 "" H 9000 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L Project:R R18
 U 1 1 58E3DA1D
 P 9400 1700
 F 0 "R18" V 9325 1700 50  0000 C CNN
@@ -860,7 +854,7 @@ F 5 "RC0603FR-07100KL" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L D_Zener D7
+L Project:D_Zener D7
 U 1 1 58E419B6
 P 9700 1700
 F 0 "D7" H 9700 1800 50  0000 C CNN
@@ -874,7 +868,7 @@ F 6 "BZX384-C5V6" H 0   0   60  0001 C CNN "Alternative"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R19
+L Project:R R19
 U 1 1 58E426C0
 P 9000 2100
 F 0 "R19" V 8925 2100 50  0000 C CNN
@@ -941,17 +935,17 @@ Wire Wire Line
 Wire Wire Line
 	5450 2500 5650 2500
 Wire Wire Line
-	3200 5100 4400 5100
+	3200 5100 3400 5100
 Wire Wire Line
-	3200 4300 4100 4300
+	3200 4300 3400 4300
 Wire Wire Line
-	3200 3500 4100 3500
+	3200 3500 3400 3500
 Wire Wire Line
-	3200 1100 4100 1100
+	3200 1100 3700 1100
 Wire Wire Line
-	3200 1900 4100 1900
+	3200 1900 3400 1900
 Wire Wire Line
-	3200 2700 4100 2700
+	3200 2700 3400 2700
 Connection ~ 1700 4300
 Connection ~ 1700 3500
 Connection ~ 1700 2700
@@ -968,13 +962,13 @@ Wire Wire Line
 	3700 1100 3700 1400
 Connection ~ 2800 1500
 Wire Wire Line
-	2600 1500 3400 1500
+	2600 1500 2800 1500
 Wire Wire Line
 	2600 1600 2600 1500
 Connection ~ 3400 1900
 Connection ~ 2800 1900
 Wire Wire Line
-	1300 1900 3000 1900
+	1300 1900 1700 1900
 Wire Wire Line
 	2000 1300 2300 1300
 Wire Wire Line
@@ -982,16 +976,16 @@ Wire Wire Line
 Connection ~ 2300 2700
 Connection ~ 3700 2700
 Wire Wire Line
-	3700 1600 3700 2200
+	3700 1600 3700 1900
 Connection ~ 2800 2300
 Wire Wire Line
-	2600 2300 3400 2300
+	2600 2300 2800 2300
 Wire Wire Line
 	2600 2400 2600 2300
 Connection ~ 3400 2700
 Connection ~ 2800 2700
 Wire Wire Line
-	1300 2700 3000 2700
+	1300 2700 1700 2700
 Wire Wire Line
 	2000 2100 2300 2100
 Wire Wire Line
@@ -999,16 +993,16 @@ Wire Wire Line
 Connection ~ 2300 3500
 Connection ~ 3700 3500
 Wire Wire Line
-	3700 2400 3700 3000
+	3700 2400 3700 2700
 Connection ~ 2800 3100
 Wire Wire Line
-	2600 3100 3400 3100
+	2600 3100 2800 3100
 Wire Wire Line
 	2600 3200 2600 3100
 Connection ~ 3400 3500
 Connection ~ 2800 3500
 Wire Wire Line
-	1300 3500 3000 3500
+	1300 3500 1700 3500
 Wire Wire Line
 	2000 2900 2300 2900
 Wire Wire Line
@@ -1016,16 +1010,16 @@ Wire Wire Line
 Connection ~ 2300 4300
 Connection ~ 3700 4300
 Wire Wire Line
-	3700 3200 3700 3800
+	3700 3200 3700 3500
 Connection ~ 2800 3900
 Wire Wire Line
-	2600 3900 3400 3900
+	2600 3900 2800 3900
 Wire Wire Line
 	2600 4000 2600 3900
 Connection ~ 3400 4300
 Connection ~ 2800 4300
 Wire Wire Line
-	1300 4300 3000 4300
+	1300 4300 1700 4300
 Wire Wire Line
 	2000 3700 2300 3700
 Wire Wire Line
@@ -1033,11 +1027,11 @@ Wire Wire Line
 Connection ~ 2300 5100
 Connection ~ 3700 5100
 Wire Wire Line
-	3700 4000 3700 4400
+	3700 4000 3700 4300
 Connection ~ 3400 5100
 Connection ~ 2800 5100
 Wire Wire Line
-	1300 5100 3000 5100
+	1300 5100 2300 5100
 Wire Wire Line
 	2300 5000 2300 5100
 Connection ~ 7400 1900
@@ -1045,21 +1039,21 @@ Connection ~ 6200 5250
 Wire Wire Line
 	6200 5250 6600 5250
 Wire Wire Line
-	6200 5000 6200 5350
+	6200 5000 6200 5250
 Wire Wire Line
 	6500 5350 6500 5650
 Wire Wire Line
 	7400 1900 6550 1900
 Wire Wire Line
-	7400 1800 7400 2300
+	7400 1800 7400 1900
 Wire Wire Line
-	7700 1500 7700 2300
+	7700 1500 7700 2000
 Wire Wire Line
-	6550 2100 8400 2100
+	6550 2100 8000 2100
 Wire Wire Line
 	7150 2500 7150 2600
 Wire Wire Line
-	6550 2600 8200 2600
+	6550 2600 7150 2600
 Wire Wire Line
 	6200 5550 6200 5650
 Wire Wire Line
@@ -1087,7 +1081,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 4200 3400 4300
 Wire Wire Line
-	3700 4600 3700 4800
+	3700 4600 3700 4700
 Wire Wire Line
 	3400 5000 3400 5100
 Wire Wire Line
@@ -1156,7 +1150,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 7150 1900 7250
 Wire Wire Line
-	2500 6750 3000 6750
+	2500 6750 2600 6750
 Wire Wire Line
 	2900 7150 2900 7250
 Wire Wire Line
@@ -1170,15 +1164,15 @@ Wire Wire Line
 Wire Wire Line
 	5650 2800 5550 2800
 Wire Wire Line
-	5550 2800 5550 3300
+	5550 2800 5550 3200
 Wire Wire Line
-	6900 1500 8800 1500
+	6900 1500 7400 1500
 Wire Wire Line
 	6700 1500 6300 1500
 Wire Wire Line
 	9900 1500 9900 1400
 Wire Wire Line
-	9200 1500 9900 1500
+	9200 1500 9400 1500
 Wire Wire Line
 	9000 2800 9000 2700
 Wire Wire Line
@@ -1187,7 +1181,7 @@ Connection ~ 9400 1500
 Wire Wire Line
 	9400 1800 9400 1900
 Wire Wire Line
-	9000 1900 9700 1900
+	9000 1900 9400 1900
 Connection ~ 9000 1900
 Wire Wire Line
 	9700 1600 9700 1500
@@ -1198,7 +1192,7 @@ Connection ~ 9400 1900
 Wire Wire Line
 	9000 2200 9000 2300
 Wire Wire Line
-	9000 1800 9000 2000
+	9000 1800 9000 1900
 Wire Wire Line
 	3700 4700 4100 4700
 Wire Wire Line
@@ -1207,7 +1201,7 @@ Connection ~ 3700 4700
 Wire Wire Line
 	3400 4700 3400 4800
 Wire Wire Line
-	2600 4700 3400 4700
+	2600 4700 2800 4700
 Wire Wire Line
 	2800 4700 2800 4800
 Wire Wire Line
@@ -1227,11 +1221,11 @@ Wire Wire Line
 	4100 5100 4100 5200
 Connection ~ 4100 5100
 Wire Wire Line
-	1300 1100 3000 1100
+	1300 1100 1700 1100
 Wire Wire Line
 	1600 6750 1500 6750
 Wire Wire Line
-	1800 6750 2300 6750
+	1800 6750 1900 6750
 Connection ~ 2100 6750
 Connection ~ 2700 6750
 Wire Wire Line
@@ -1290,7 +1284,7 @@ R_SENSE+
 Wire Wire Line
 	6500 5350 6600 5350
 $Comp
-L SW_PUSH SW1
+L Project:SW_PUSH SW1
 U 1 1 58E7E37F
 P 9100 4150
 F 0 "SW1" H 9100 4100 50  0000 C CNN
@@ -1304,7 +1298,7 @@ F 6 "TE FSMRA3JH" H 9100 4150 60  0001 C CNN "Alternative"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R23
+L Project:R R23
 U 1 1 58E7E387
 P 10100 4600
 F 0 "R23" V 10025 4600 50  0000 C CNN
@@ -1317,7 +1311,7 @@ F 5 "RC0603FR-075K6L" H 0   0   60  0001 C CNN "PartNumber"
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R22
+L Project:R R22
 U 1 1 58E7E38E
 P 9100 4900
 F 0 "R22" V 9025 4900 50  0000 C CNN
@@ -1330,7 +1324,7 @@ F 5 "RC0603FR-0710KL" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L Project:R R24
 U 1 1 58E7E395
 P 9100 5500
 F 0 "R24" V 9025 5500 50  0000 C CNN
@@ -1343,7 +1337,7 @@ F 5 "RC0603FR-07100KL" H 0   0   60  0001 C CNN "PartNumber"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Zener D10
+L Project:D_Zener D10
 U 1 1 58E7E39C
 P 9450 5500
 F 0 "D10" H 9450 5600 50  0000 C CNN
@@ -1362,7 +1356,7 @@ Text Notes 10500 4400 2    50   ~ 0
 Text Notes 8800 3600 0    100  ~ 0
 Boot Switch
 $Comp
-L D D8
+L Project:D D8
 U 1 1 58E7E3A9
 P 9700 4600
 F 0 "D8" H 9700 4700 50  0000 C CNN
@@ -1375,7 +1369,7 @@ F 5 "1N4148W-7-F" H 0   0   60  0001 C CNN "PartNumber"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 58E7E3B0
 P 9450 5700
 F 0 "#PWR013" H 9450 5450 50  0001 C CNN
@@ -1386,7 +1380,7 @@ F 3 "" H 9450 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 58E7E3B6
 P 9100 5700
 F 0 "#PWR014" H 9100 5450 50  0001 C CNN
@@ -1398,7 +1392,7 @@ F 3 "" H 9100 5700 50  0000 C CNN
 $EndComp
 Connection ~ 9100 5200
 Wire Wire Line
-	9100 5200 9550 5200
+	9100 5200 9450 5200
 Connection ~ 9100 3800
 Wire Wire Line
 	9100 3800 9100 4000
@@ -1412,12 +1406,12 @@ Wire Wire Line
 Wire Wire Line
 	9100 5600 9100 5700
 Wire Wire Line
-	9100 5000 9100 5400
+	9100 5000 9100 5200
 Wire Wire Line
 	9800 4600 10000 4600
 Connection ~ 9300 4600
 Wire Wire Line
-	9100 4600 9600 4600
+	9100 4600 9300 4600
 Wire Wire Line
 	9300 4200 9450 4200
 Wire Wire Line
@@ -1427,22 +1421,22 @@ Wire Wire Line
 Wire Wire Line
 	9300 3800 9300 4100
 Wire Wire Line
-	8950 3800 9300 3800
+	8950 3800 9100 3800
 $Comp
-L CONN_01X02 P3
+L Project:Conn_01x02 P3
 U 1 1 58E7E3D5
-P 9650 4150
-F 0 "P3" H 9650 4300 50  0000 C CNN
-F 1 "ON/OFF" V 9750 4150 50  0000 C CNN
-F 2 "LibreSolar:Phoenix_Contact_MC_1,5_2-G-3,81" H 9650 4150 50  0001 C CNN
-F 3 "" H 9650 4150 50  0000 C CNN
-F 4 "Phoenix Contact" H 9650 4150 60  0001 C CNN "Manufacturer"
-F 5 "1803277" H 0   0   60  0001 C CNN "PartNumber"
-	1    9650 4150
+P 9650 4100
+F 0 "P3" H 9650 4250 50  0000 C CNN
+F 1 "ON/OFF" V 9750 4100 50  0000 C CNN
+F 2 "LibreSolar:Phoenix_Contact_MC_1,5_2-G-3,81" H 9650 4100 50  0001 C CNN
+F 3 "" H 9650 4100 50  0000 C CNN
+F 4 "Phoenix Contact" H 9650 4100 60  0001 C CNN "Manufacturer"
+F 5 "1803277" H 0   -50 60  0001 C CNN "PartNumber"
+	1    9650 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 4300 9100 4800
+	9100 4300 9100 4600
 Text Notes 3100 850  2    100  ~ 0
 Balancing circuits
 Text HLabel 6600 5250 2    50   Input ~ 0
@@ -1452,7 +1446,7 @@ TS1-
 Text Label 6200 5000 3    50   ~ 0
 TS1
 $Comp
-L +3.3V #PWR015
+L power:+3.3V #PWR015
 U 1 1 58F78E23
 P 5300 6600
 F 0 "#PWR015" H 5300 6450 50  0001 C CNN
@@ -1463,7 +1457,7 @@ F 3 "" H 5300 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR016
+L power:+3.3V #PWR016
 U 1 1 58F78E29
 P 4900 6600
 F 0 "#PWR016" H 4900 6450 50  0001 C CNN
@@ -1474,7 +1468,7 @@ F 3 "" H 4900 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R50
+L Project:R R50
 U 1 1 58F78E34
 P 5300 6800
 F 0 "R50" V 5230 6800 50  0000 C CNN
@@ -1487,7 +1481,7 @@ F 5 "RC0603FR-072K2L" H 150 1450 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L R R49
+L Project:R R49
 U 1 1 58F78E40
 P 4900 6800
 F 0 "R49" V 4830 6800 50  0000 C CNN
@@ -1520,4 +1514,132 @@ CELLS_1
 Text Label 10400 4600 2    50   ~ 0
 TS1
 Connection ~ 9100 4600
+Wire Wire Line
+	1700 4300 2300 4300
+Wire Wire Line
+	1700 3500 2300 3500
+Wire Wire Line
+	1700 2700 2300 2700
+Wire Wire Line
+	1700 1900 2300 1900
+Wire Wire Line
+	1700 1100 3000 1100
+Wire Wire Line
+	3700 1100 4100 1100
+Wire Wire Line
+	2300 1900 2800 1900
+Wire Wire Line
+	3700 1900 4100 1900
+Wire Wire Line
+	3700 1900 3700 2200
+Wire Wire Line
+	2800 1500 3400 1500
+Wire Wire Line
+	3400 1900 3700 1900
+Wire Wire Line
+	2800 1900 3000 1900
+Wire Wire Line
+	2300 2700 2800 2700
+Wire Wire Line
+	3700 2700 4100 2700
+Wire Wire Line
+	3700 2700 3700 3000
+Wire Wire Line
+	2800 2300 3400 2300
+Wire Wire Line
+	3400 2700 3700 2700
+Wire Wire Line
+	2800 2700 3000 2700
+Wire Wire Line
+	2300 3500 2800 3500
+Wire Wire Line
+	3700 3500 4100 3500
+Wire Wire Line
+	3700 3500 3700 3800
+Wire Wire Line
+	2800 3100 3400 3100
+Wire Wire Line
+	3400 3500 3700 3500
+Wire Wire Line
+	2800 3500 3000 3500
+Wire Wire Line
+	2300 4300 2800 4300
+Wire Wire Line
+	3700 4300 4100 4300
+Wire Wire Line
+	3700 4300 3700 4400
+Wire Wire Line
+	2800 3900 3400 3900
+Wire Wire Line
+	3400 4300 3700 4300
+Wire Wire Line
+	2800 4300 3000 4300
+Wire Wire Line
+	2300 5100 2800 5100
+Wire Wire Line
+	3700 5100 4100 5100
+Wire Wire Line
+	3400 5100 3700 5100
+Wire Wire Line
+	2800 5100 3000 5100
+Wire Wire Line
+	7400 1900 7400 2300
+Wire Wire Line
+	6200 5250 6200 5350
+Wire Wire Line
+	5550 3200 5550 3300
+Wire Wire Line
+	2900 6750 3000 6750
+Wire Wire Line
+	1900 6750 2100 6750
+Wire Wire Line
+	9400 1500 9700 1500
+Wire Wire Line
+	9000 1900 9000 2000
+Wire Wire Line
+	9700 1500 9900 1500
+Wire Wire Line
+	9400 1900 9700 1900
+Wire Wire Line
+	3700 4700 3700 4800
+Wire Wire Line
+	2800 4700 3400 4700
+Wire Wire Line
+	4100 5100 4400 5100
+Wire Wire Line
+	2100 6750 2200 6750
+Wire Wire Line
+	2700 6750 2900 6750
+Wire Wire Line
+	2200 6750 2300 6750
+Wire Wire Line
+	2600 6750 2700 6750
+Wire Wire Line
+	7150 2600 7400 2600
+Wire Wire Line
+	7400 1500 7700 1500
+Wire Wire Line
+	7700 2000 7700 2300
+Wire Wire Line
+	7700 1500 8800 1500
+Wire Wire Line
+	8000 2100 8300 2100
+Wire Wire Line
+	8300 2100 8400 2100
+Wire Wire Line
+	8000 2600 8200 2600
+Wire Wire Line
+	7700 2600 8000 2600
+Wire Wire Line
+	7400 2600 7700 2600
+Wire Wire Line
+	9100 5200 9100 5400
+Wire Wire Line
+	9100 3800 9300 3800
+Wire Wire Line
+	9450 5200 9550 5200
+Wire Wire Line
+	9300 4600 9600 4600
+Wire Wire Line
+	9100 4600 9100 4800
 $EndSCHEMATC

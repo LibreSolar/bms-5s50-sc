@@ -1,0 +1,69 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,PartNumber,Manufacturer,Remarks,Alternative,Tolerance
+1,Unpolarized capacitor,C,C1 C2 C3 C4 C5 C6 C11 C12 C13 C14 C15 C18 C24 C25 C26 C27 C31 C32 C33 C34 C36 C37 C38 C39 C40,100n,C_0603_1608,25,,GRM188R71H104KA93D,Murata,,,
+2,Unpolarized capacitor,C,C23,100p,C_0603_1608,1,,GRM1885C2A101JA01D,Murata,,,
+3,Unpolarized capacitor,C,C8 C19 C20,10u,C_0805_2012,3,,GRM21BR61E106KA73L,Murata,,,
+4,Unpolarized capacitor,C,C7 C9 C16 C21,1u,C_0603_1608,4,,GRM188R61H105KAALD,Murata,X5R,,
+5,Unpolarized capacitor,C,C10 C22 C30 C35,4.7u,C_0603_1608,4,,GRM188R61A475KE15D,Murata,10V,,
+6,Unpolarized capacitor,C,C17,4.7u,C_1206_3216,1,,GRM31CR71H475MA12L,Murata,,,
+7,Diode,D,D6 D8 D13,1N4148W-7-F,D_SOD-323,3,,1N4148W-7-F,Diodes Inc.,,,
+8,Diode zener,D_Zener,D9 D10 D11 D12 D18 D19 D20 D21,3.3V,D_SOD-323,8,,MM3Z3V3T1G,ON Semiconductor,,,
+9,Diode zener,D_Zener,D1 D2 D3 D4 D5 D7,5.6V,D_SOD-323,6,,MM3Z5V6T1G,ON Semiconductor,,BZX384-C5V6,
+10,,LM4040,D17,LM4040CYM3-2.5,SOT-23,1,,LM4040DYM3-2.5-TR,Microchip,,,
+11,,NUP2105L,D16,NUP2105L,SOT-23,1,,NUP2105LT1G,ON Semiconductor,,,
+12,Diode Schottky,D_Schottky,D14,SS16FP,D_PowerDI-123,1,,SS16FP,Diodes Inc.,,DFLS160-7,
+13,,USBLC6-2SC6,D15,USBLC6-2SC6,SOT-23-6,1,,USBLC6-2SC6,STMicroelectronics,,WE-TVS 82400102,
+14,,UEXT,J2,UEXT,Box_Header_2x05x2.54mm_Straight,1,,61201021621,Würth,,,
+15,Jumper normally close,Jumper_NC_Small,JP1,Jumper_NC_Small,Pin_Header_Angled_2x01_Pitch2.54mm,1,,,,,,
+16,,RJ45_NS,JP2 JP3,RJ45_NS,RJ45_8P8C,2,,54602-908LF,Amphenol FCI,,,
+17,Inductor,L,L2,22uH,L_WE-TPC-4818,1,,SRR4028-220Y,Bourns,,WE-TPC-4818 744042220,
+18,Inductor,L,L1,4.7uH,L_0805,1,,LQM21PN4R7NGRD,Murata,,,
+19,Inductor,L,L3,L,R_0603_1608,1,,BLM18AG601SN1D,Murata,,,
+20,,LED,LED1 LED2,LED,LED_D3.0mm,2,,,,,,
+21,Libre Solar Logo,LIBRE_SOLAR,LOGO2,LIBRE_SOLAR,LIBRESOLAR_LOGO,1,,,,,,
+22,Open Hardware Logo,OPEN_HARDWARE_1,LOGO1,OPEN_HARDWARE_1,OSHW-Logo_5.7x6mm_SilkScreen,1,,,,,,
+23,"Connector, single row, 01x02, pin header",CONN_01X02,P5,CONN_01X02,Pin_Header_Straight_1x02_Pitch2.54mm,1,,,,,,
+24,"Connector, single row, 01x02, pin header",CONN_01X02,P6 P7,CONN_01X02,"Phoenix_Contact_PTSM_0.5_2-HH-2,5-THR-R16",2,,,,,,
+25,"Connector, single row, 01x06, pin header",CONN_01X06,P2,CONN_01X06,"Phoenix_Contact_MC_1,5_6-G-3,81",1,,1803316,Phoenix Contact,"MC 1,5/ 6-G-3,81",,
+26,,Conn_Switch-N-Sense,P1,Conn_Switch-N-Sense,Wuerth_WR-FPC_687112149022,1,,687112149022,Würth,,,
+27,"Connector, single row, 01x02, pin header",CONN_01X02,P3,ON/OFF,"Phoenix_Contact_PTSM_0.5_2-HH-2,5-THR-R16",1,,,Phoenix Contact,,,
+28,,USB_OTG,P4,USB_Micro-B,USB_Micro-B_10103594-0001LF,1,,10103594-0001LF,FCI,,,
+29,Transistor N-MOSFETwith substrate diode (general),Q_NMOS_GSD,Q4 Q8 Q9,2N7002,SOT-23,3,,"2N7002,215",Nexperia,,,
+30,Transistor N-MOSFETwith substrate diode (general),Q_NMOS_GSD,Q2,BSS84,SOT-23,1,,BSS84,Fairchild Semiconductor,,,
+31,Transistor N-MOSFETwith substrate diode (general),Q_NMOS_GSD,Q1 Q3 Q5 Q6 Q7,DMN2004K,SOT-23,5,,DMN2004K-7,Diodes Incorporated,,,
+32,Resistor,R,R17,100,R_0603_1608,1,,RC0603FR-07100RL,Yageo,,,
+33,Resistor,R,R18 R19 R24 R31 R43 R44,100k,R_0603_1608,6,,RC0603FR-07100KL,Yageo,,,
+34,Resistor,R,R12 R13 R14 R15 R16 R22 R28 R40 R45 R46 R47 R48,10k,R_0603_1608,12,,RC0603FR-0710KL,Yageo,,,
+35,Resistor,R,R32,120,R_1206_3216,1,,RC1206FR-07120RL,Yageo,,,
+36,Resistor,R,R21 R35 R37,1M,R_0603_1608,3,,RC0603FR-071ML,Yageo,,,
+37,Resistor,R,R6 R7 R8 R9 R10 R11 R20 R25 R26,1k,R_0603_1608,9,,RC0603FR-071KL,Yageo,,,
+38,Resistor,R,R33 R34 R38 R49 R50,2.2k,R_0603_1608,5,,RC0603FR-072K2L,Yageo,,,
+39,Resistor,R,R1 R2 R3 R4 R5,33,R_2010_5025,5,,RC2010JK-0733RL,Yageo,,,
+40,Resistor,R,R41 R42,330,R_0603_1608,2,,RC0603FR-07330RL,Yageo,,,
+41,Resistor,R,R23,5.6K,R_0603_1608,1,,RC0603FR-075K6L,Yageo,,,
+42,Resistor,R,R27 R39,52.3k,R_0603_1608,2,,RC0603FR-0752K3L,Yageo,,,
+43,,R_PTC,RT1,200mA,R_0805_2012,1,,0805L020,Littelfuse,,,
+44,Button,SW_PUSH,SW1,SW_PUSH,SW_Tactile_SKHH_Angled,1,,431256083716,Würth,,,
+45,Button,SW_PUSH,SW2,SW_PUSH,SW_SPST_EVQP7A,1,,434121050816,Würth,,,
+46,,ST_Nucleo_SWD,SWD1,ST_Nucleo_SWD,Pin_Header_Straight_1x05_Pitch2.54mm,1,,,,,,
+47,Microchip 24AA01 1K I2C EEPROM,24AA01,U6,24AA01,SOT-23-5,1,,24AA01,Microchip,,,
+48,"300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5 package",AP2210-3.3,U3,AP2210-3.3,SOT-23-5,1,http://www.diodes.com/_files/datasheets/AP131.pdf,AP2210K-3.3TRG1,Diodes Inc.,,MIC5225,
+49,,BQ76920,U1,BQ76920,TSSOP-20_4.4x6.5mm_Pitch0.65mm,1,,BQ7692003PWR,Texas Instruments,,,
+50,"High-Voltage Input Integrated Switch Step-Down Regulator, 50V, 500mA",MCP16331-CH,U2,MCP16331-CH,SOT-23-6,1,http://ww1.microchip.com/downloads/en/DeviceDoc/20005308C.pdf,MCP16331T-E/CH,Microchip,,,
+51,,STM32F072CB,U5,STM32F072CB,LQFP-48_7x7mm_Pitch0.5mm,1,,STM32F072CBT6,STMicroelectronics,,,
+52,"TJA1042T/3, High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8",TJA1042T/3,U4,TJA1042T/3,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,http://www.nxp.com/documents/data_sheet/TJA1042.pdf,TJA1042T/3/1J,NXP,,,
+53,Two pin crystal,Resonator,Y1,8kHz,Resonator_Murata_CSTCE,1,,CSTCE8M00G15C99-R0,Murata,,,0.1%
+
+
+
+
+
+Component Groups:,53
+Component Count:,144
+Fitted Components:,144
+Number of PCBs:,1
+Total components:,144
+Schematic Version:,0.1b
+Schematic Date:,3 dec 2016
+BoM Date:,22/05/2017 16:05:45
+Schematic Source:,D:\LibreSolar\2_Development\04_Hardware\BMS-5s\BMS-5s.sch
+KiCad Version:,Eeschema (2017-05-10 revision 747583606)-makepkg

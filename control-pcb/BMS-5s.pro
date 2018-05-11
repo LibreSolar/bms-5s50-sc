@@ -1,4 +1,4 @@
-update=01/06/2017 22:13:28
+update=10/05/2018 19:07:33
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,9 +25,12 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=libre_solar_template.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -35,13 +38,3 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
-[eeschema]
-version=1
-LibDir=../library
-[eeschema/libraries]
-LibName1=../library/IEC-60617
-LibName2=../library/LibreSolar
-LibName3=power
-LibName4=device
-LibName5=conn
-LibName6=logo

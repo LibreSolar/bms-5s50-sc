@@ -1,10 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:IEC-60617
-LIBS:LibreSolar
-LIBS:power
-LIBS:device
-LIBS:conn
-LIBS:logo
+EESchema Schematic File Version 4
 LIBS:BMS-5s-cache
 EELAYER 26 0
 EELAYER END
@@ -12,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "Libre Solar BMS 5s"
-Date "2017-05-27"
-Rev "0.1"
+Date "2018-05-11"
+Rev "0.2"
 Comp "Libre Solar (http://libre.solar)"
 Comment1 "License: CC-BY-SA"
 Comment2 "Author: Martin Jäger"
@@ -101,7 +95,7 @@ F23 "TS1_BQ" O R 5000 3000 50
 F24 "SW_POWER" I R 5000 3700 50 
 $EndSheet
 $Comp
-L Conn_Switch-N-Sense P1
+L Project:Conn_Switch-N-Sense P1
 U 1 1 58E8147B
 P 9600 3700
 F 0 "P1" H 9600 4450 50  0000 C CNN
@@ -126,17 +120,17 @@ F6 "TEMP_2" O L 6200 2200 50
 F7 "TEMP_1" O L 6200 2100 50 
 $EndSheet
 $Comp
-L CONN_01X06 P2
+L Project:Conn_01x06 P2
 U 1 1 58F30336
-P 8200 4950
-F 0 "P2" H 8200 5300 50  0000 C CNN
-F 1 "CONN_01X06" V 8300 4950 50  0000 C CNN
-F 2 "LibreSolar:Phoenix_Contact_MC_1,5_6-G-3,81" H 8200 4950 50  0001 C CNN
-F 3 "" H 8200 4950 50  0000 C CNN
-F 4 "Phoenix Contact" H 8200 4950 60  0001 C CNN "Manufacturer"
-F 5 "1803316" H 8200 4950 60  0001 C CNN "PartNumber"
-F 6 "MC 1,5/ 6-G-3,81" H 8200 4950 60  0001 C CNN "Remarks"
-	1    8200 4950
+P 8200 4900
+F 0 "P2" H 8200 5250 50  0000 C CNN
+F 1 "CONN_01X06" V 8300 4900 50  0000 C CNN
+F 2 "LibreSolar:Phoenix_Contact_MC_1,5_6-G-3,81" H 8200 4900 50  0001 C CNN
+F 3 "" H 8200 4900 50  0000 C CNN
+F 4 "Phoenix Contact" H 8200 4900 60  0001 C CNN "Manufacturer"
+F 5 "1803316" H 8200 4900 60  0001 C CNN "PartNumber"
+F 6 "MC 1,5/ 6-G-3,81" H 8200 4900 60  0001 C CNN "Remarks"
+	1    8200 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -158,9 +152,9 @@ Wire Wire Line
 Wire Wire Line
 	7400 4300 9200 4300
 Wire Wire Line
-	7400 2100 8900 2100
+	7400 2100 8000 2100
 Wire Wire Line
-	7500 3100 9200 3100
+	7500 3100 8200 3100
 Wire Wire Line
 	8200 3100 8200 2100
 Connection ~ 8200 2100
@@ -170,13 +164,13 @@ Wire Wire Line
 	7500 3500 7400 3500
 Connection ~ 8200 3100
 Wire Wire Line
-	7400 2200 8100 2200
+	7400 2200 7600 2200
 Wire Wire Line
 	8100 2200 8100 3200
 Wire Wire Line
 	8100 3200 9200 3200
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 58F56B2A
 P 8300 3400
 F 0 "#PWR01" H 8300 3150 50  0001 C CNN
@@ -205,9 +199,9 @@ TS1
 Text Label 5400 3100 2    50   ~ 0
 PCHG_EN
 Wire Wire Line
-	5000 3400 6200 3400
+	5000 3400 5700 3400
 Wire Wire Line
-	5000 3500 6200 3500
+	5000 3500 6000 3500
 Wire Wire Line
 	5000 3600 6200 3600
 Wire Wire Line
@@ -235,7 +229,7 @@ Wire Wire Line
 Text Label 7800 4500 2    50   ~ 0
 REGOUT
 Wire Wire Line
-	8300 2300 8900 2300
+	8300 2300 8700 2300
 Text Label 8300 2300 0    50   ~ 0
 REGOUT
 Wire Wire Line
@@ -265,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3700 3600 3700
 $Comp
-L LIBRE_SOLAR LOGO2
+L Project:LibreSolar_Logo LOGO2
 U 1 1 58F7CBC4
 P 5650 7050
 F 0 "LOGO2" H 5650 7325 50  0000 C CNN
@@ -276,12 +270,12 @@ F 3 "" H 5670 7040 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPEN_HARDWARE_1 LOGO1
+L Project:Logo_Open_Hardware_Small LOGO1
 U 1 1 58F7CD5F
 P 4900 7050
 F 0 "LOGO1" H 4900 7325 50  0000 C CNN
-F 1 "OPEN_HARDWARE_1" H 4900 6825 50  0000 C CNN
-F 2 "Symbols:OSHW-Logo_5.7x6mm_SilkScreen" H 4900 7050 50  0001 C CNN
+F 1 "OPEN_HARDWARE" H 4900 6825 50  0000 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 4900 7050 50  0001 C CNN
 F 3 "" H 4900 7050 50  0001 C CNN
 	1    4900 7050
 	1    0    0    -1  
@@ -289,7 +283,7 @@ $EndComp
 Wire Wire Line
 	6200 3700 5000 3700
 $Comp
-L TEST TP4
+L Connector:Test_Point TP4
 U 1 1 591748EB
 P 8000 1700
 F 0 "TP4" H 8078 1840 50  0000 L CNN
@@ -303,7 +297,7 @@ Wire Wire Line
 	8000 1700 8000 2100
 Connection ~ 8000 2100
 $Comp
-L TEST TP5
+L Connector:Test_Point TP5
 U 1 1 591783E5
 P 8700 1700
 F 0 "TP5" H 8778 1840 50  0000 L CNN
@@ -314,7 +308,7 @@ F 3 "" H 8700 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP3
+L Connector:Test_Point TP3
 U 1 1 5917857D
 P 7600 1700
 F 0 "TP3" H 7678 1840 50  0000 L CNN
@@ -331,7 +325,7 @@ Wire Wire Line
 	8700 1700 8700 2300
 Connection ~ 8700 2300
 $Comp
-L TEST TP6
+L Connector:Test_Point TP6
 U 1 1 5917D3E9
 P 5700 3100
 F 0 "TP6" H 5778 3240 50  0000 L CNN
@@ -342,7 +336,7 @@ F 3 "" H 5700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP7
+L Connector:Test_Point TP7
 U 1 1 5917D5BB
 P 6000 3100
 F 0 "TP7" H 6078 3240 50  0000 L CNN
@@ -360,4 +354,18 @@ Wire Wire Line
 Connection ~ 6000 3500
 Wire Wire Line
 	7400 4000 9200 4000
+Wire Wire Line
+	8200 2100 8900 2100
+Wire Wire Line
+	8200 3100 9200 3100
+Wire Wire Line
+	8000 2100 8200 2100
+Wire Wire Line
+	7600 2200 8100 2200
+Wire Wire Line
+	8700 2300 8900 2300
+Wire Wire Line
+	5700 3400 6200 3400
+Wire Wire Line
+	6000 3500 6200 3500
 $EndSCHEMATC
