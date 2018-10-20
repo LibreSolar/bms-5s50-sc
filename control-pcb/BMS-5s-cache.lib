@@ -348,7 +348,7 @@ $FPLIST
  Socket_Strip_Angled_2X04
 $ENDFPLIST
 DRAW
-T 900 300 -150 50 0 0 0 Switch-N-Sense~Connector Normal 0 C C
+T 900 300 -150 50 0 0 0 "Switch-N-Sense Connector" Normal 0 C C
 S -250 700 350 -700 0 1 0 f
 X BAT+ 1 -400 600 150 R 50 50 1 1 P
 X TEMP- 10 -400 -600 150 R 50 50 1 1 P
